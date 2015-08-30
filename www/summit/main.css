@@ -1,0 +1,78 @@
+button {
+  margin: 16px;
+  padding: 0;
+  color: #555;
+  background: #cbcbcb;
+  border: 0;
+  border-radius:.6em;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #666, 0 2px 2px 5px #ddd;
+  font-family: helvetica,arial,sans-serif;
+  font-size: 1.6em;
+  letter-spacing: -0.025em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(255,255,255, .4);
+  cursor: pointer;
+  transition: all .1s ease-in;
+}
+
+button::-moz-focus-inner {
+  outline: 0;
+  border: 0;
+}
+
+button:hover {
+  color: #000;
+}
+
+button:active {
+  background: #fff;
+  box-shadow: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button span {
+  float: left;
+  margin: 6px;
+  padding: 16px;
+  border: 1px solid;
+  border-color: #ababab #898989 #616161;
+  border-radius: .4em;
+  background: linear-gradient(#e5e5e5 0%, #d2d2d2 50%, #c7c7c7 50%, #adadad 100%);
+  box-shadow: 0 1px 2px 0 #666;
+}
+
+button span:before,
+button span:after {
+  content: "★";
+  color: #888;
+  padding: 0 8px;
+}
+
+button:before,
+button:after {
+  float: left;
+  position: relative;
+  content: "";
+  width: 8px;
+  height: 8px;
+  top: 36px;
+}
+
+button:before {
+  background: url("triangle_left.svg");
+  left: 7px;
+  margin: 0 -8px 0 0;
+}
+
+button:after {
+  background: url("triangle_right.svg");
+  left: -15px;
+  margin: 0 -14px 0 0;
+}
+
+
+

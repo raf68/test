@@ -1,0 +1,2 @@
+[24-May-2015 23:47:21 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/boklook8/public_html/app/design/frontend/rwd/default/template/page/html/header.phtml on line 36
+[01-Jul-2015 01:23:07 America/Chicago] PHP Warning:  Module 'ssh2' already loaded in Unknown on line 0
